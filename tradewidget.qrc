@@ -1,0 +1,35 @@
+<RCC>
+  <qresource prefix="/image">
+    <file>images/deal@22px.png</file>
+    <file>images/OE@22px.png</file>
+    <file>images/price@22px.png</file>
+    <file>images/CC@22px.png</file>
+    <file>images/bar.png</file>
+    <file>images/candle.png</file>
+    <file>images/enlarge.png</file>
+    <file>images/JTCE.png</file>
+    <file>images/letting.png</file>
+    <file>images/logo.png</file>
+    <file>images/INS.png</file>
+    <file>images/title.png</file>
+    <file>images/accMa.png</file>
+    <file>images/locked.png</file>
+    <file>images/unlock.png</file>
+    <file>images/help.png</file>
+    <file>images/CC@32px.png</file>
+    <file>images/hpback.png</file>
+    <file>images/EXIT.png</file>
+    <file>images/notice.png</file>
+    <file>images/login.png</file>
+    <file>images/trade.png</file>
+    <file>images/config.png</file>
+    <file>images/pass.png</file>
+    <file>images/del.png</file>
+    <file>images/K.png</file>
+    <file>images/launcher.png</file>
+    <file>images/deal@32px.png</file>
+    <file>images/OE@32px.png</file>
+    <file>images/price@32px.png</file>
+    <file>images/openctp.jpg</file>
+  </qresource>
+</RCC>

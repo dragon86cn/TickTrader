@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>configForm</class>
+ <widget class="QWidget" name="configForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>280</width>
+    <height>110</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>280</width>
+    <height>110</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>280</width>
+    <height>110</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>设置</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">.QWidget{background-color: rgb(224, 224, 224);}
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="orderTipWidget" native="true">
+     <property name="styleSheet">
+      <string notr="true">.QWidget{
+	border-radius:5px;
+	border:2px solid rgb(210, 210, 210);
+}</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QCheckBox" name="checkOrderTip">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>11</pointsize>
+          <weight>9</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(34, 34, 34);
+font: 75 11pt &quot;微软雅黑&quot;;</string>
+        </property>
+        <property name="text">
+         <string>下单确认</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="tickWidget" native="true">
+     <property name="styleSheet">
+      <string notr="true">.QWidget{
+	border-radius:5px;
+	border:2px solid rgb(210, 210, 210);
+}</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QCheckBox" name="tickCheckBox">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(34, 34, 34);
+font: 75 11pt &quot;微软雅黑&quot;;</string>
+        </property>
+        <property name="text">
+         <string>追价</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="tickComboBox">
+        <property name="editable">
+         <bool>false</bool>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <property name="duplicatesEnabled">
+         <bool>false</bool>
+        </property>
+        <item>
+         <property name="text">
+          <string>1 Tick</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2 Tick</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3 Tick</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
